@@ -1,159 +1,159 @@
 body {
-  background-image: url(img/body.png);
-  background-color: #f2f2f2;
-  background-size: cover;
-  position: relative;
-  font-family: ubuntu mono;
+   background-image: url(img/body.png);
+   background-color: #f2f2f2;
+   background-size: cover;
+   position: relative;
+   font-family: ubuntu mono;
 }
 
 /* Navbar */
 .navbar {
-  background: #f2f2f2;
+   background: #f2f2f2;
 }
 
 .navbar-brand {
-  font-size: 36px;
+   font-size: 36px;
 }
 
 /* home */
 .home-title {
-  padding-top: 12%;
-  padding-left: 12%;
+   padding-top: 12%;
+   padding-left: 12%;
 }
 
 .home-title h3 {
-  font-size: 36px;
+   font-size: 36px;
 }
 
 .home-image {
-  padding-top: 5%;
+   padding-top: 5%;
 }
 
 .button {
-  position: relative;
-  border: 3px solid transparent;
-  border-radius: 12px;
+   position: relative;
+   border: 3px solid transparent;
+   border-radius: 12px;
 }
 
 .primary-button {
-  background: #f86262;
-  opacity: 1;
-  background-clip: padding-box;
-  color: whitesmoke;
-  transition: background 0.6s ease;
+   background: #f86262;
+   opacity: 1;
+   background-clip: padding-box;
+   color: whitesmoke;
+   transition: background 0.6s ease;
 }
 
 .primary-button:hover {
-  background: white;
-  background-clip: padding-box;
-  color: black;
+   background: white;
+   background-clip: padding-box;
+   color: black;
 }
 
 .primary-button::after {
-  position: absolute;
-  top: -2px;
-  bottom: -2px;
-  left: -2px;
-  right: -2px;
-  background: #f86262;
-  opacity: 1;
-  content: '';
-  z-index: -1;
-  border-radius: 12px;
+   position: absolute;
+   top: -2px;
+   bottom: -2px;
+   left: -2px;
+   right: -2px;
+   background: #f86262;
+   opacity: 1;
+   content: '';
+   z-index: -1;
+   border-radius: 12px;
 }
 
 .secondary-button {
-  background: #f2f2f2;
-  background-clip: padding-box;
-  transition: background 0.6s ease;
+   background: #f2f2f2;
+   background-clip: padding-box;
+   transition: background 0.6s ease;
 }
 
 .secondary-button:hover {
-  background: #f86262;
-  color: whitesmoke;
+   background: #f86262;
+   color: whitesmoke;
 }
 
 .secondary-button::after {
-  position: absolute;
-  top: -2px;
-  bottom: -2px;
-  left: -2px;
-  right: -2px;
-  background: #f86262;
-  opacity: 1;
-  content: '';
-  z-index: -1;
-  border-radius: 12px;
+   position: absolute;
+   top: -2px;
+   bottom: -2px;
+   left: -2px;
+   right: -2px;
+   background: #f86262;
+   opacity: 1;
+   content: '';
+   z-index: -1;
+   border-radius: 12px;
 }
 
 /* About me */
 .workingspace {
-  /* margin-top: 150px; */
-  text-align: center;
+   /* margin-top: 150px; */
+   text-align: center;
 }
 
 .workingspace img {
-  padding-left: 25%;
+   padding-left: 25%;
 }
 
 .about-title {
-  margin-top: 3%;
+   margin-top: 3%;
 }
 
 .about-title h3 > span {
-  /* margin-top: 3%; */
-  display: block;
-  font-weight: bold;
-  font-size: 44px;
-  letter-spacing: 16px;
+   /* margin-top: 3%; */
+   display: block;
+   font-weight: bold;
+   font-size: 44px;
+   letter-spacing: 16px;
 }
 
 .about-title p {
-  padding-top: 2%;
-  font-size: 18px;
-  /* line-height: 14px; */
+   padding-top: 2%;
+   font-size: 18px;
+   /* line-height: 14px; */
 }
 
 /* Portofolio */
 .portofolio {
-  margin-bottom: 10%;
+   margin-bottom: 10%;
 }
 
 .title-portofolio {
-  /* margin-top: 150px; */
-  font-size: 32px;
-  font-weight: bold;
+   /* margin-top: 150px; */
+   font-size: 32px;
+   font-weight: bold;
 }
 
 .portofolio-image {
-  padding-top: 10px;
+   padding-top: 10px;
 }
 
 .contact-me {
-  /* margin-top: 150px; */
-  margin-bottom: 150px;
+   /* margin-top: 150px; */
+   margin-bottom: 150px;
 }
 
 section {
-  padding-top: 7rem;
+   padding-top: 7rem;
 }
 
 .footer {
-  background-color: #f4a4a4;
+   background-color: #f4a4a4;
 }
 
 /* untuk desktop */
 @media (min-width: 992px) {
-  .nav-link {
-    text-transform: uppercase;
-    margin-right: 30px;
-  }
+   .nav-link {
+      text-transform: uppercase;
+      margin-right: 30px;
+   }
 
-  .about-title p {
-    padding-right: 30%;
-  }
+   .about-title p {
+      padding-right: 30%;
+   }
 
-  .workingspace {
-    text-align: left;
-  }
+   .workingspace {
+      text-align: left;
+   }
 }
